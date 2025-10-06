@@ -1,0 +1,7 @@
+PyPDF2 
+pdfplumber 
+tiktoken 
+langchain 
+pathlib
+haystack-ai "transformers[torch,sentencepiece]"
+pytesseract
