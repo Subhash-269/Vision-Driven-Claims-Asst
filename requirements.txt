@@ -5,3 +5,4 @@ langchain
 pathlib
 haystack-ai "transformers[torch,sentencepiece]"
 pytesseract
+tf-keras
