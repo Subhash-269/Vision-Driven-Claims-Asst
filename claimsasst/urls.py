@@ -20,6 +20,6 @@ from django.urls import include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    # backend is a subpackage under the 'claimsasst' project package
-    path('', include('claimsasst.backend.urls')),
+    # Mount backend API under the conventional /api/ path
+    path('claimsasst/', include('claimsasst.backend.urls')),
 ]
