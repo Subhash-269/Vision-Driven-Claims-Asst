@@ -20,4 +20,4 @@ for doc in os.listdir(policy_docs):
 
     # To save to a text file:
     with open(f"{doc_name}.txt", "w", encoding="utf-8") as f:
-        f.write(extracted_content)
+        f.write(extracted_content)  
